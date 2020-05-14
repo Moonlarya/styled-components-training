@@ -1,15 +1,15 @@
-import React from "react";
 import styled from "styled-components";
 
-const Input = (props) => {
-  const Input = styled.input`
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #fafafa;
-    border-radius: 10px;
-  `;
-  return <Input {...props}></Input>;
-};
+const Input = styled.input`
+  color: #fafafa;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: #333;
+  outline: none;
+`;
 
 export default Input;
